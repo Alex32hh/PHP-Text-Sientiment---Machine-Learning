@@ -1,3 +1,6 @@
 # PHP-Text-Sientiment---Machine-Learning
 
-<p>Sentimento do texto com PHP GET Request with cURL, Estes projectos destina-se apenas para estudos de Aprendizado de maquina com php, lembrando que o código pode ser adaptado para qualquer Linguagem de Programação usando a API do Yandex Translator (Português / Inglês), e o PsyFy...</p>
+<p>Text feeling with PHP GET Request with cURL, These projects are intended only for machine learning studies with php, remembering that the code can be adapted for any Programming Language using the Yandex Translator API (Portuguese / English), and PsyFy...
+
+http://kalleza.ml/old.php
+</p>
