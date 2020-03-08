@@ -20,7 +20,7 @@ if(isset($_GET['texto'])){
   
     function translate($text, $from, $to)
       {
-      $api = 'trnsl.1.1.20200302T021340Z.588e7c67f57d309e.578c6e5d066056ba01b5ec10a94eea822ed96c16'; // TODO: Get your key from https://tech.yandex.com/translate/
+      $api = 'YOUR_APIkEY'; // TODO: Get your key from https://tech.yandex.com/translate/
       $url = file_get_contents('https://translate.yandex.net/api/v1.5/tr.json/translate?key=' . $api . '&lang=' . $from . '-' . $to . '&text=' . urlencode($text));
       $json = json_decode($url);
       return $json->text[0];
@@ -39,9 +39,9 @@ if(isset($_GET['texto'])){
 
 //Fall - Code 
  // When you have your own client ID and secret, put them down here:
- //$CLIENT_ID = "FREE_TRIAL_ACCOUNT";
+ //$CLIENT_ID = "YOUR_ID";
 
- //$CLIENT_SECRET = "PUBLIC_SECRET_API";
+ //$CLIENT_SECRET = "YOUR_APIkEY";
  
 
  // Specify your translation requirements here:
@@ -80,7 +80,7 @@ if($resposta != ""){
 
         $string = urlencode($string);
 
-        $api_key = "1816ef14fd4e37b8234860bda6b01b";
+        $api_key = "YOUR_APIkEY";
 
         $url = 'https://api.paysify.com/sentiment?api_key='.$api_key.'&string='.$string.'';
 
@@ -113,7 +113,7 @@ if($resposta != ""){
 <?php
 
 //IBM WATSON - Falll
-//$apikey = "Dim_RiBjoJc7O7AU4HGEWjK7wTBMqll3sYhHW6yglZco";
+//$apikey = "YOUR_APIkEY";
 //$urlInk = "https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2019-07-12&url=www.ibm.com&features=keywords,entities&entities.emotion=true&entities.sentiment=true&keywords.emotion=true&keywords.sentiment=true";
 // create curl resource
 //$ch = curl_init();
